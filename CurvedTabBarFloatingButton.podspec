@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "CurvedTabBarFloatingButton"
   spec.version      = "0.0.2"
   spec.summary      = "A short description of CurvedTabBarFloatingButton."
+  spec.swift_version = '5.0'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -82,7 +83,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/razvanrujoiu/CurvedTabBarFloatingButton.git", :tag => "#{spec.version}" }
 
   spec.summary = 'Cocoapods library for custom curved tab bar with middle floating button'
-  spec.description = 'Cocoapods library for custom curved tab bar with middle floating button'
+  spec.description = 'Cocoapods library for custom curved tab bar with middle floating button, customizable and very simple to use'
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
