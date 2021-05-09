@@ -10,6 +10,17 @@
 		E3A091B32647E9B200E67CDD /* CurvedTabBarFloatingButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A091A92647E9B100E67CDD /* CurvedTabBarFloatingButton.framework */; };
 		E3A091B82647E9B200E67CDD /* CurvedTabBarFloatingButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A091B72647E9B200E67CDD /* CurvedTabBarFloatingButtonTests.swift */; };
 		E3A091BA2647E9B200E67CDD /* CurvedTabBarFloatingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A091AC2647E9B100E67CDD /* CurvedTabBarFloatingButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A091CA2647E9EA00E67CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A091C92647E9EA00E67CDD /* AppDelegate.swift */; };
+		E3A091CC2647E9EA00E67CDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A091CB2647E9EA00E67CDD /* SceneDelegate.swift */; };
+		E3A091CE2647E9EA00E67CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A091CD2647E9EA00E67CDD /* ViewController.swift */; };
+		E3A091D12647E9EA00E67CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A091CF2647E9EA00E67CDD /* Main.storyboard */; };
+		E3A091D32647E9EC00E67CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A091D22647E9EC00E67CDD /* Assets.xcassets */; };
+		E3A091D62647E9EC00E67CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A091D42647E9EC00E67CDD /* LaunchScreen.storyboard */; };
+		E3A091DC2647EB4200E67CDD /* CurvedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A091DB2647EB4200E67CDD /* CurvedTabBar.swift */; };
+		E3A091DE2647EBEF00E67CDD /* UIColor+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A091DD2647EBEF00E67CDD /* UIColor+extensions.swift */; };
+		E3A091E02647ECDD00E67CDD /* CurvedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A091DF2647ECDD00E67CDD /* CurvedTabBarController.swift */; };
+		E3A091E22647F9D700E67CDD /* CurvedTabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A091E12647F9D700E67CDD /* CurvedTabBarControllerDelegate.swift */; };
+		E3A091E42647FB7100E67CDD /* UIButton+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A091E32647FB7100E67CDD /* UIButton+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,19 @@
 		E3A091B22647E9B200E67CDD /* CurvedTabBarFloatingButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurvedTabBarFloatingButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A091B72647E9B200E67CDD /* CurvedTabBarFloatingButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedTabBarFloatingButtonTests.swift; sourceTree = "<group>"; };
 		E3A091B92647E9B200E67CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A091C72647E9EA00E67CDD /* CurvedTabBarFloatingButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurvedTabBarFloatingButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A091C92647E9EA00E67CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3A091CB2647E9EA00E67CDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E3A091CD2647E9EA00E67CDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3A091D02647E9EA00E67CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3A091D22647E9EC00E67CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3A091D52647E9EC00E67CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3A091D72647E9EC00E67CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A091DB2647EB4200E67CDD /* CurvedTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedTabBar.swift; sourceTree = "<group>"; };
+		E3A091DD2647EBEF00E67CDD /* UIColor+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extensions.swift"; sourceTree = "<group>"; };
+		E3A091DF2647ECDD00E67CDD /* CurvedTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedTabBarController.swift; sourceTree = "<group>"; };
+		E3A091E12647F9D700E67CDD /* CurvedTabBarControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedTabBarControllerDelegate.swift; sourceTree = "<group>"; };
+		E3A091E32647FB7100E67CDD /* UIButton+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3A091C42647E9EA00E67CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +86,7 @@
 			children = (
 				E3A091AB2647E9B100E67CDD /* CurvedTabBarFloatingButton */,
 				E3A091B62647E9B200E67CDD /* CurvedTabBarFloatingButtonTests */,
+				E3A091C82647E9EA00E67CDD /* CurvedTabBarFloatingButtonExample */,
 				E3A091AA2647E9B100E67CDD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +96,7 @@
 			children = (
 				E3A091A92647E9B100E67CDD /* CurvedTabBarFloatingButton.framework */,
 				E3A091B22647E9B200E67CDD /* CurvedTabBarFloatingButtonTests.xctest */,
+				E3A091C72647E9EA00E67CDD /* CurvedTabBarFloatingButtonExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +106,11 @@
 			children = (
 				E3A091AC2647E9B100E67CDD /* CurvedTabBarFloatingButton.h */,
 				E3A091AD2647E9B100E67CDD /* Info.plist */,
+				E3A091DB2647EB4200E67CDD /* CurvedTabBar.swift */,
+				E3A091DD2647EBEF00E67CDD /* UIColor+extensions.swift */,
+				E3A091DF2647ECDD00E67CDD /* CurvedTabBarController.swift */,
+				E3A091E12647F9D700E67CDD /* CurvedTabBarControllerDelegate.swift */,
+				E3A091E32647FB7100E67CDD /* UIButton+extensions.swift */,
 			);
 			path = CurvedTabBarFloatingButton;
 			sourceTree = "<group>";
@@ -84,6 +122,20 @@
 				E3A091B92647E9B200E67CDD /* Info.plist */,
 			);
 			path = CurvedTabBarFloatingButtonTests;
+			sourceTree = "<group>";
+		};
+		E3A091C82647E9EA00E67CDD /* CurvedTabBarFloatingButtonExample */ = {
+			isa = PBXGroup;
+			children = (
+				E3A091C92647E9EA00E67CDD /* AppDelegate.swift */,
+				E3A091CB2647E9EA00E67CDD /* SceneDelegate.swift */,
+				E3A091CD2647E9EA00E67CDD /* ViewController.swift */,
+				E3A091CF2647E9EA00E67CDD /* Main.storyboard */,
+				E3A091D22647E9EC00E67CDD /* Assets.xcassets */,
+				E3A091D42647E9EC00E67CDD /* LaunchScreen.storyboard */,
+				E3A091D72647E9EC00E67CDD /* Info.plist */,
+			);
+			path = CurvedTabBarFloatingButtonExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +188,23 @@
 			productReference = E3A091B22647E9B200E67CDD /* CurvedTabBarFloatingButtonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E3A091C62647E9EA00E67CDD /* CurvedTabBarFloatingButtonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A091D82647E9EC00E67CDD /* Build configuration list for PBXNativeTarget "CurvedTabBarFloatingButtonExample" */;
+			buildPhases = (
+				E3A091C32647E9EA00E67CDD /* Sources */,
+				E3A091C42647E9EA00E67CDD /* Frameworks */,
+				E3A091C52647E9EA00E67CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurvedTabBarFloatingButtonExample;
+			productName = CurvedTabBarFloatingButtonExample;
+			productReference = E3A091C72647E9EA00E67CDD /* CurvedTabBarFloatingButtonExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,8 +216,12 @@
 				TargetAttributes = {
 					E3A091A82647E9B100E67CDD = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 					E3A091B12647E9B200E67CDD = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E3A091C62647E9EA00E67CDD = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -168,6 +241,7 @@
 			targets = (
 				E3A091A82647E9B100E67CDD /* CurvedTabBarFloatingButton */,
 				E3A091B12647E9B200E67CDD /* CurvedTabBarFloatingButtonTests */,
+				E3A091C62647E9EA00E67CDD /* CurvedTabBarFloatingButtonExample */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +261,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3A091C52647E9EA00E67CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A091D62647E9EC00E67CDD /* LaunchScreen.storyboard in Resources */,
+				E3A091D32647E9EC00E67CDD /* Assets.xcassets in Resources */,
+				E3A091D12647E9EA00E67CDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A091E42647FB7100E67CDD /* UIButton+extensions.swift in Sources */,
+				E3A091DC2647EB4200E67CDD /* CurvedTabBar.swift in Sources */,
+				E3A091E02647ECDD00E67CDD /* CurvedTabBarController.swift in Sources */,
+				E3A091DE2647EBEF00E67CDD /* UIColor+extensions.swift in Sources */,
+				E3A091E22647F9D700E67CDD /* CurvedTabBarControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +291,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3A091B82647E9B200E67CDD /* CurvedTabBarFloatingButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A091C32647E9EA00E67CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A091CE2647E9EA00E67CDD /* ViewController.swift in Sources */,
+				E3A091CA2647E9EA00E67CDD /* AppDelegate.swift in Sources */,
+				E3A091CC2647E9EA00E67CDD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +313,25 @@
 			targetProxy = E3A091B42647E9B200E67CDD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3A091CF2647E9EA00E67CDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3A091D02647E9EA00E67CDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3A091D42647E9EC00E67CDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3A091D52647E9EC00E67CDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E3A091BB2647E9B200E67CDD /* Debug */ = {
@@ -341,6 +459,7 @@
 		E3A091BE2647E9B200E67CDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.razvan.CurvedTabBarFloatingButton;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +484,7 @@
 		E3A091BF2647E9B200E67CDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -387,6 +508,7 @@
 		E3A091C12647E9B200E67CDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CurvedTabBarFloatingButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,6 +526,7 @@
 		E3A091C22647E9B200E67CDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CurvedTabBarFloatingButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -412,6 +535,42 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.razvan.CurvedTabBarFloatingButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3A091D92647E9EC00E67CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CurvedTabBarFloatingButtonExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razvan.CurvedTabBarFloatingButtonExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3A091DA2647E9EC00E67CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CurvedTabBarFloatingButtonExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razvan.CurvedTabBarFloatingButtonExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -444,6 +603,15 @@
 			buildConfigurations = (
 				E3A091C12647E9B200E67CDD /* Debug */,
 				E3A091C22647E9B200E67CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3A091D82647E9EC00E67CDD /* Build configuration list for PBXNativeTarget "CurvedTabBarFloatingButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3A091D92647E9EC00E67CDD /* Debug */,
+				E3A091DA2647E9EC00E67CDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
