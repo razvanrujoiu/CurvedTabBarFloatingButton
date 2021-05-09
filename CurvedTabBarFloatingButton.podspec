@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CurvedTabBarFloatingButton"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of CurvedTabBarFloatingButton."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,6 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/razvanrujoiu/CurvedTabBarFloatingButton.git", :tag => "#{spec.version}" }
-  spec.source_files = "CurvedTabBarFloatingButton/**/*/.{h,m,swift}"
 
   spec.summary = 'Cocoapods library for custom curved tab bar with middle floating button'
   spec.description = 'Cocoapods library for custom curved tab bar with middle floating button'
@@ -92,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}", "CurvedTabBarFloatingButton/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
